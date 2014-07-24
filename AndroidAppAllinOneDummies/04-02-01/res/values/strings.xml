@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MyMenusActivity!</string>
+    <string name="app_name">MyMenus</string>
+    <string name="menu_insert">Add Reminder</string>
+    <string name="post">Post</string>
+    <string name="reminders">Reminders:</string>
+    <string name="menu_delete">Delete Reminder</string>
+    <string name="honk">Honk!</string>   
+</resources>

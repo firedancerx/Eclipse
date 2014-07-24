@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, MyActivity!</string>
+    <string name="app_name">SensorDemo</string>
+    <string name="start">Start</string>
+    <string name="zero">0%</string>
+    <string name="five">20%</string>
+    <string name="ten">40%</string>
+    <string name="margin_of_error">Difficulty level (0 to 100):</string>
+    <string name="colorometer">Orientation Demo</string>
+    <string name="copyright">(c) 2011 Burd Brain Consulting</string>
+    <string name="instructions">Rotate your device to match the button color.</string>
+    <string name="blank">            </string>
+    <string name="goal">Goal: </string>
+    <string name="your_values">current</string>
+    <string name="values_appear_here">Values appear here</string>
+</resources>

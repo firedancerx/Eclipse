@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World,
+        ServiceConsumerActivity!</string>
+    <string name="app_name">ServiceConsumer</string>
+    <string name="query">Query</string>
+    <string name="unbind">Unbind</string>
+    <string name="bind">Bind</string>
+    <string name="city_name_or_zip_code">City name or zip code</string>
+    <string name="service_disconnected">Service disconnected</string>
+    <string name="service_crashed">Service crashed</string>
+    <string name="service_not_bound">Service not bound.</string>
+    <string name="service_connected">Service connected</string>
+    <string name="report_appears_here">Weather report appears here</string>
+</resources>

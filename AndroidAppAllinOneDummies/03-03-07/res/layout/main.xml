@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/bind"
+		android:id="@+id/buttonBind"></Button>
+	<EditText android:id="@+id/editText1" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:hint="@string/city_name_or_zip_code">
+		<requestFocus></requestFocus>
+	</EditText>
+	<Button android:layout_width="wrap_content" android:text="@string/query"
+		android:layout_height="wrap_content" android:id="@+id/buttonQuery"></Button>
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1"
+		android:layout_height="wrap_content" android:text="@string/report_appears_here"></TextView>
+	<Button android:layout_width="wrap_content" android:text="@string/unbind"
+		android:layout_height="wrap_content" android:id="@+id/buttonUnbind"></Button>
+</LinearLayout>

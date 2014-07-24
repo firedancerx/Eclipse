@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">
+        Ciao mondo, la mia attività!</string>
+    <string name="app_name">
+        Il mio secondo progetto Android</string>
+    <string name="extra_cheese">Con più formaggio</string>
+    <string name="pepperoni">Merguez</string>
+    <string name="plain">Semplice</string>
+    <string name="show">Mostra</string>
+</resources>

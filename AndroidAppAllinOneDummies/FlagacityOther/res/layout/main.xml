@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/textView3" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<LinearLayout android:layout_width="match_parent"
+		android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+		<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Activity Number"></TextView>
+		<EditText android:layout_width="wrap_content" android:id="@+id/editText1"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:hint="e.g., 3 or 3Other">
+<!-- 			android:inputType="number" -->
+			<requestFocus></requestFocus>
+		</EditText>
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+		android:id="@+id/linearLayout2" android:layout_height="wrap_content">
+		<TextView android:id="@+id/textView2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Flags"></TextView>
+		<!-- Need to add a maxLength below?? also match_parent -->
+		<EditText android:layout_width="match_parent" android:id="@+id/editText2"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:maxLength="100" android:hint="e.g., FLAG_ACTIVITY_CLEAR_TOP | 0x20000 | 524288"></EditText>
+	</LinearLayout>
+	<Button android:id="@+id/button1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Go"
+		android:onClick="go"></Button>
+	<EditText android:layout_width="match_parent" android:id="@+id/editText3"
+		android:editable="false" android:inputType="none" android:textSize="10sp"
+		android:layout_height="wrap_content"></EditText>
+</LinearLayout>

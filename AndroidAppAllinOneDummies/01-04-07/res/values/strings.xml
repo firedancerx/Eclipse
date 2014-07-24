@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MyActivity!</string>
+    <string name="app_name">My Second Android Project</string>
+    <string name="extra_cheese">Extra cheese</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="plain">Plain</string>
+    <string name="show">Show</string>
+</resources>

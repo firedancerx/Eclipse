@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ServiceDemo!</string>
+    <string name="app_name">ServiceDemo</string>
+
+    <string name="service_destroyed">Service destroyed</string>
+    <string name="service_bound">Service bound</string>
+    <string name="service_stopped_itself">Service stopped itself</string>
+    <string name="message_handled">Message handled</string>
+</resources>

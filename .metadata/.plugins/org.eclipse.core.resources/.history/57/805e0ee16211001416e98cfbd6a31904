@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MoneyChanger.comx</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pepperoni">US Dollar</string>
+    <string name="cheese">Euro</string>
+    <string name="show">Show</string>
+    <string name="plain">Pound Sterling</string>
+    <string name="web_pepperoni">http://www.bloomberg.com/quote/DXY:CUR</string>
+    <string name="web_cheese">http://www.x-rates.com/table/?from=EURamount=1</string>
+    <string name="web_plain">http://themoneyconverter.com/GBP/Exchange_Rates_For_british_pound_sterling.aspx</string>
+
+</resources>

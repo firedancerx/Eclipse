@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ShowListActivity!</string>
+    <string name="app_name">ShowList</string>
+    <string name="box0">0</string>
+    <string name="box1">1</string>
+    <string name="box2">2</string>
+    <string name="box3">3</string>
+    <string name="box4">4</string>
+    <string name="show_list">Show List</string>
+    <string name="yet_another_activity">Yet another activity</string>
+    <string name="main_activity">Main activity</string>
+</resources>

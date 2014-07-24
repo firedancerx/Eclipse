@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GetResultActivity!</string>
+    <string name="app_name">GetResult</string>
+    <string name="go_back">Go Back</string>
+    <string name="type_something">Type something here.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android=
+    "http://schemas.android.com/apk/res/android">
+  <color name="bright_red">#F00</color>
+  <color name="bright_red2">#FF00</color>
+  <color name="bright_red3">#FF0000</color>
+  <color name="translucent_red">#7F00</color>
+  <color name="invisible_good_for_nothing_red">
+    #00FF0000
+  </color>
+  <color name="white">#FFF</color>
+  <color name="black">#000</color>
+  <color name="puce">#CC8898</color>
+</resources>

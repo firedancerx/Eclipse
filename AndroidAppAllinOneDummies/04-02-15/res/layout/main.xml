@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:gravity="center_horizontal">
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="@string/main_activity"></TextView>
+    <CheckBox android:layout_height="wrap_content" android:text="@string/box0" android:layout_width="wrap_content" android:id="@+id/a"></CheckBox>
+    <CheckBox android:layout_height="wrap_content" android:text="@string/box1" android:layout_width="wrap_content" android:id="@+id/b"></CheckBox>
+    <CheckBox android:layout_height="wrap_content" android:text="@string/box2" android:layout_width="wrap_content" android:id="@+id/c"></CheckBox>
+    <CheckBox android:layout_height="wrap_content" android:text="@string/box3" android:layout_width="wrap_content" android:id="@+id/d"></CheckBox>
+    <CheckBox android:layout_height="wrap_content" android:text="@string/box4" android:layout_width="wrap_content" android:id="@+id/e"></CheckBox>
+    <Button android:layout_height="wrap_content" android:id="@+id/button1" android:layout_width="wrap_content" android:text="@string/show_list" android:onClick="onShowListClick"></Button>
+</LinearLayout>

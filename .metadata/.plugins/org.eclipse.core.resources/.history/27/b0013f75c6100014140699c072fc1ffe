@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@drawable/plain.jpg" android:maxLevel="0" />
+	<item android:drawable="@drawable/pepperoni.jpg" android:maxLevel="1" />
+	<item android:drawable="@drawable/extracheese.jpg" android:maxLevel="2" />
+	<item android:drawable="@drawable/pep_extracheese.jpg" android:maxLevel="3" />
+</level-list>

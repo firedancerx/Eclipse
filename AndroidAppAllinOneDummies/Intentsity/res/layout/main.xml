@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android=
+     "http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollView1" android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+
+	<LinearLayout android:id="@+id/entireLayout" android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_height="match_parent">
+		<LinearLayout android:layout_height="wrap_content"
+			android:id="@+id/linearLayout14" android:layout_width="match_parent"
+			android:orientation="vertical" android:background="@color/SOME_GREEN">
+			<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/linearLayout12"
+				android:orientation="horizontal">
+				<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:id="@+id/textViewIntent" android:text="Intent:"
+					android:textColor="@color/WHITE"></TextView>
+				<LinearLayout android:layout_height="match_parent"
+					android:id="@+id/linearLayout13" android:gravity="right"
+					android:layout_width="match_parent">
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+				<TextView android:layout_width="wrap_content" android:id="@+id/textViewAction"
+					android:layout_height="wrap_content" android:text="setAction"></TextView>
+				<EditText android:layout_weight="1" android:id="@+id/editTextAction"
+					android:hint="e.g., android.intent.action.VIEW" style="@style/small_edittext">
+					<requestFocus></requestFocus>
+				</EditText>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content"
+				android:id="@+id/linearLayout9" android:layout_width="match_parent">
+				<TextView android:id="@+id/textViewData"
+					android:layout_height="wrap_content" android:text="setData [URI]"
+					android:layout_width="wrap_content"></TextView>
+				<EditText android:layout_weight="1" android:id="@+id/editTextUri"
+					style="@style/small_edittext"
+					android:hint="e.g., content: (with a colon) or content:/example.com:2000/mypath"></EditText>
+			</LinearLayout>
+			<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+			</LinearLayout>
+			<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/linearLayout8"
+				android:orientation="vertical">
+				<LinearLayout android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:id="@+id/linearLayout3">
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/linearLayout4">
+			</LinearLayout>
+			<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content" android:id="@+id/linearLayout5"
+				android:gravity="center_vertical">
+				<TextView android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/textViewMimeType"
+					android:text="setType"></TextView>
+				<EditText android:layout_weight="1" android:id="@+id/editTextMimeType"
+					android:hint="e.g., text/plain" style="@style/small_edittext"></EditText>
+			</LinearLayout>
+			<Button android:id="@+id/addIntentCatButton" style="@style/small_button"
+				android:text="New Intent Category"></Button>
+			<LinearLayout android:layout_height="wrap_content"
+				android:id="@+id/intentCategoriesLayout" android:orientation="vertical"
+				android:layout_width="match_parent">
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_height="wrap_content"
+			android:id="@+id/linearLayout10" android:layout_width="match_parent"
+			android:orientation="vertical" android:background="@color/SOME_RED">
+			<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:id="@+id/textViewFilter" android:text="Filter:"
+				android:textColor="@color/WHITE"></TextView>
+			<Button style="@style/small_button" android:id="@+id/addFilterActionButton"
+				android:text="New Filter Action"></Button>
+			<LinearLayout android:layout_height="wrap_content"
+				android:id="@+id/filterActionLayout" android:layout_width="match_parent"
+				android:orientation="vertical">
+			</LinearLayout>
+			<Button android:id="@+id/addFilterSchemeButton" android:text="New Filter Scheme"
+				style="@style/small_button"></Button>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/filterSchemeLayout"
+				android:orientation="vertical"></LinearLayout>
+			<Button android:id="@+id/addFilterAuthButton" android:text="New Filter Authority"
+				style="@style/small_button"></Button>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/filterAuthorityLayout"
+				android:orientation="vertical"></LinearLayout>
+			<Button style="@style/small_button" android:id="@+id/addFilterPathButton"
+				android:text="New Filter Path"></Button>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/filterPathLayout"
+				android:orientation="vertical"></LinearLayout>
+			<Button style="@style/small_button" android:text="New Filter Mime Type"
+				android:id="@+id/addFilterTypeButton"></Button>
+			<LinearLayout android:layout_height="wrap_content"
+				android:layout_width="match_parent" android:id="@+id/filterTypeLayout"
+				android:orientation="vertical"></LinearLayout>
+			<Button style="@style/small_button" android:id="@+id/addFilterCatButton"
+				android:text="New Filter Category"></Button>
+			<LinearLayout android:layout_height="wrap_content"
+				android:id="@+id/filterCategoryLayout" android:layout_width="match_parent"
+				android:orientation="vertical"></LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:id="@+id/linearLayout7">
+			<Button android:text="Test" android:id="@+id/buttonTest"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="@color/BLACK" android:textStyle="bold"></Button>
+			<Button android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Clear"
+				android:id="@+id/buttonClear"></Button>
+			<LinearLayout android:layout_height="wrap_content"
+				android:id="@+id/linearLayout6" android:layout_width="match_parent"
+				android:gravity="center_horizontal">
+				<TextView android:id="@+id/textViewMessages"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:textStyle="bold" android:textColor="@color/WHITE"
+					android:text="Messages appear here"></TextView>
+			</LinearLayout>
+			<ScrollView android:id="@+id/scrollView2"
+				android:layout_height="match_parent" android:layout_width="match_parent">
+				<LinearLayout android:id="@+id/linearLayout11"
+					android:layout_width="match_parent" android:layout_height="match_parent"
+					android:gravity="center_horizontal|center">
+				</LinearLayout>
+			</ScrollView>
+		</LinearLayout>
+
+	</LinearLayout>
+</ScrollView>
+

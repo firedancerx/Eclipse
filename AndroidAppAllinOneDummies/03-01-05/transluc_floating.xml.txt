@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <!-- BARRY can you get rid of any of these? -->
+  <style name="transluc_floating" 
+         parent="android:Theme.Translucent">
+
+    <item name="android:windowIsFloating">true</item>
+
+  </style>
+</resources>

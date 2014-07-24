@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+      "http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    
+    <LinearLayout android:id="@+id/LinearLayout1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@color/opaque_white">
+        
+        <TextView android:text="Dummies"
+            android:layout_margin="30dip"
+            android:padding="30dip"
+            android:textSize="30sp"
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:id="@+id/textView1"
+            android:textColor="@color/opaque_black">
+        </TextView>
+        
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+http://www.pepperonis.net/http://www.pepperonis.net/<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppWeb</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="cheese">Extra Cheese</string>
+    <string name="show">Show</string>
+    <string name="plain">Plain</string>
+    <string name="web_pepperoni">http://www.pepperonis.net</>
+    <string name="web_cheese">http://xtracheesepizza.com</>
+    <string name="web_plain">http://www.amish365.com/plain-pizza/</>
+
+</resources>

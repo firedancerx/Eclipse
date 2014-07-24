@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:gravity="center_horizontal">
+    <RadioGroup android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" android:enabled="true"
+            android:text="Spouse" android:id="@+id/radioSpouse"></RadioButton>
+        <RadioButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work" android:id="@+id/radioWork"></RadioButton>
+        <RadioButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mom" android:id="@+id/radioMom"></RadioButton>
+    </RadioGroup>
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:id="@+id/button1"
+        android:text="Make the call"></Button>
+</LinearLayout>
