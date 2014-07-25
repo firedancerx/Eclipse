@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App5</string>
+    <string name="hello_world">Ciao mondo, la mia attivita!</string>
+    <string name="pepperoni">Merguez</string>
+    <string name="cheese">Con piu formaggio</string>
+    <string name="show">Mostra</string>
+    <string name="plain">Semplice</string>
+
+</resources>

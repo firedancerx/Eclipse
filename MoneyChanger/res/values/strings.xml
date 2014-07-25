@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Money Changer</string>
+    <string name="msg_hello">Hello, world! I am Money Changer.</string>
+    <string name="promptSelectBaseCurrency">Select Base Currency</string>
+    <string name="promptSelectTargetCurrency">Select Target Currency</string>
+    <string name="promptEnterBaseAmount">Enter Base Amount To Be Converted</string>
+
+</resources>
